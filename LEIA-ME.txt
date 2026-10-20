@@ -1,0 +1,22 @@
+BOTWISE — VERSÃO CORRIGIDA PARA GITHUB PAGES
+
+ESTRUTURA
+- index.html
+- css/styles.css
+- assets/ (logos e ícones)
+
+COMO PUBLICAR
+1. Extraia este ZIP.
+2. Envie index.html, a pasta css e a pasta assets para a raiz do repositório GitHub (não envie apenas o index.html).
+3. No GitHub, abra Settings > Pages.
+4. Em Build and deployment, selecione Deploy from a branch, branch main e pasta /(root), se essa for a branch que contém os arquivos.
+5. Aguarde a publicação e atualize o site com Ctrl+F5.
+
+O caminho no HTML já está relativo e corrigido para a estrutura:
+<link rel="stylesheet" href="css/styles.css">
+
+IMPORTANTE
+- Não renomeie a pasta css nem o arquivo styles.css sem atualizar o caminho no HTML.
+- O GitHub diferencia letras maiúsculas de minúsculas.
+- Se publicar dentro de uma subpasta do repositório, mantenha juntos index.html, css/ e assets/.
+- A conversa exibida na demonstração é ilustrativa; não é um chatbot conectado ao WhatsApp.
